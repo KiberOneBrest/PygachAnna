@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav> 
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html">Главная</a></li>
+                <li class="nav-item"><a href="dog.html">Собака</a></li>
+                <li class="nav-item"><a href="cat.html">Кот</a></li>
+                <li class="nav-item"><a href="parrot.html">Попугай</a></li>
+                <li class="nav-item"><a href="hamster.html">Хомяк</a></li>
+                <li class="nav-item"><a href="about.html">Обо мне</a></li>
+                <li class="nav-item"><a href="form.html">Отзыв</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="main-title">Оставь отзыв о моём сайте</h1>
+        <form action="https://echo.htmlacademy.ru/" method="post">
+            <label for="name">Ваше имя</label>
+            <input type="text" placeholder="Ваше имя" id="name" required>
+            <label for="email">Ваш email</label>
+            <input type="email" placeholder="Ваш email" id="email" required>
+            <label for="review">Ваш отзыв</label>
+            <textarea type="review"  id="review" cols="30" rows="10" required></textarea>
+            <button type="submit">отправиить отзыв</button>
+        </form>
+    </main>
+</body>
+</html>

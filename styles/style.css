@@ -1,0 +1,83 @@
+body {
+    background-color:rgb(166, 221, 253);
+}
+
+.main-header {
+    background-color:rgb(252, 155, 155) ;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px ;
+}
+
+main {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav-list a {
+    color: white;
+    text-decoration: none ;
+    font-size: 20px;
+}
+
+.main-img {
+    display: block;
+    width: 50%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.mail-img {
+    display: block;
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.gallery-item{
+    width:23%;
+    margin: 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius:5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gallery-img{
+    width:100%;
+    border-radius:3px;
+}
+.gallery-title{
+    text-align: center;
+    color: #000;
+}
+.gallery{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+
+}
+textarea {
+    grid-column: 1/-1;
+
+}
+form button {
+    grid-column: 1/-1;
+}
